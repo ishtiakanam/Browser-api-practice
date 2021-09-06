@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+</head>
+<body>
+    <h1>Location</h1>
+    <button onclick="refreshpage()">Refresh</button>
+    <button onclick="visitPh()">Busy</button>
+    <script>
+        const refreshpage = () =>{
+            location.reload();
+        }
+        const visitPh = () => {
+            location.assign(`https://getbootstrap.com/docs/5.1/components/modal/`)
+        }
+    </script>
+</body>
+</html>
